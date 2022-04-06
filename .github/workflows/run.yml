@@ -17,6 +17,7 @@ jobs:
 
   #     - run: python main.py
   #       env:
+  #         OPENSEA_TOKEN: ${{ secrets.OPENSEA_TOKEN }}
   #         SALES_WEBHOOK_URL: ${{ secrets.AZUKI_SALES_WEBHOOK_URL }}
   #         LISTINGS_WEBHOOK_URL: ${{ secrets.AZUKI_LISTINGS_WEBHOOK_URL }}
   #         COLLECTION: "azuki"
